@@ -6,7 +6,7 @@ csv_file="users.csv"
 
 create_user() {
     local username="$1"
-    local password="90OJ&bcp*S&Y" #password por defecto(Solicitar al usuario modificarlo).
+    local password="<agregar password>" #password por defecto para los nuevos usuarios (se debe solicitar al usuario modificarlo).
     local admin_role="$2"
     local cli_permissions="$3"
     local partition="$4"
